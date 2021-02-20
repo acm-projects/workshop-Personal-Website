@@ -1,0 +1,22 @@
+* {
+    /* Includes margins + padding in total width of elements */
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+section {
+    height: 100%;
+}
+
+#intro {
+    background-color: #23B5D3;
+
+    text-align: center;
+    color: white;
+}
