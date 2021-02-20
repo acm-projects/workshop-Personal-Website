@@ -11,6 +11,23 @@ html, body {
     height: 100%;
 }
 
+#navbar {
+    background-color: #071013;
+
+    text-align: center;
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    padding: 1%;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
 section {
     height: 100%;
 
@@ -109,7 +126,6 @@ button:active {
 a {
     color: white;
     font-weight: bold;
-    text-decoration: none;
     margin-left: 10px;
 }
 
