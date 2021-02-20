@@ -10,7 +10,7 @@ html, body {
     height: 100%;
 }
 
-#navbar {
+nav {
     background-color: #071013;
 
     text-align: center;
@@ -23,7 +23,7 @@ html, body {
     padding: 1%;
 }
 
-#navbar a {
+nav a {
     text-decoration: none;
 }
 
