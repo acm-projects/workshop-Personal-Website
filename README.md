@@ -1,7 +1,7 @@
 # Personal Website Workshop
 Optional workshop for ACM Projects that guides you through the process of creating a personal website from scratch using HTML and CSS.
 
-# Resource
+# Resources
 Below is a list of resources used in the workshop:
 
 #### Logos and Icons
