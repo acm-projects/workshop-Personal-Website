@@ -13,14 +13,17 @@ html, body {
 nav {
     background-color: #071013;
 
-    text-align: center;
-
     width: 100%;
+
     position: fixed;
     top: 0;
     z-index: 1;
+    
+    height: 5%;
 
-    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a {
@@ -28,17 +31,18 @@ nav a {
 }
 
 section {
-    height: 100%;
+    height: 95%;
 
     display: flex;
     flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
 }
 
 #intro {
+    height: 100%;
     background-color: #23B5D3;
+
+    align-items: center;
+    justify-content: center;
 
     text-align: center;
     color: white;
@@ -132,7 +136,7 @@ a:not(:last-child) {
     margin-right: 10vw;
 }
 
-img {
+.icon {
     width: 20px;
     margin: 0;
 
@@ -154,4 +158,33 @@ img {
 
 h1 {
     font-size: 24pt;
+}
+
+#about-me {
+    text-align: center;
+}
+
+#about-me-content * {
+    margin: 5%;
+}
+
+#about-me-text {
+    display: inline-block;
+
+    width: 50%;
+
+    text-align: left;
+    font-size: 15pt;
+    line-height: 30px;
+
+    vertical-align: middle;
+}
+
+#headshot {
+    display: inline-block;
+    width: 550px;
+
+    vertical-align: middle;
+
+    border-radius: 100%;
 }
