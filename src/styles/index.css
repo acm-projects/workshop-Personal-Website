@@ -249,6 +249,7 @@ h1 {
 .job {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     width: 100%;
     margin-bottom: 3%;
 }
@@ -278,12 +279,13 @@ h1 {
 .organization {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     width: 100%;
     margin-bottom: 3%;
 }
 
-.organization-dates p {
-    vertical-align: middle;
+.org-dates {
+    align-items: center;
 }
 
 .org-description h4 {
