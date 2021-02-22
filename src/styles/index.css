@@ -8,6 +8,8 @@
 
 html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -157,7 +159,7 @@ a:not(:last-child) {
 }
 
 h1 {
-    font-size: 24pt;
+    font-size: 36pt;
 }
 
 #about-me {
@@ -187,4 +189,101 @@ h1 {
     vertical-align: middle;
 
     border-radius: 100%;
+}
+
+/* PROJECT SECTION */
+
+.card {
+    width: 500px;
+    height: 600px;
+    background-color: #DFE0E2;
+    border-radius: 10px;
+}
+
+.card-image {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.dark-title {
+    color: white;
+}
+
+.card-container {
+    padding: 2%;
+}
+
+.card-container p {
+    margin-top: 2%;
+}
+
+#projects {
+    height: 100vh;
+    width: 100%;
+    background-color: #181315;
+    padding: 2%;
+    text-align: center;
+}
+
+#projects-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+/* WORK SECTION */
+
+#work-experience {
+    height: 100vh;
+    padding: 2%;
+}
+
+#work-content {
+    display: flex;
+    flex-flow: wrap;
+    margin: 3% 8% 0% 8%;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.job h4 {
+    font-size: 24pt;
+}
+
+.job-dates p {
+    vertical-align: middle;
+}
+
+/* EXTRACURRICULAR */
+
+#extracurriculars {
+    background-color: #181315;
+    padding: 2%;
+}
+
+#extracurricular-content {
+    margin: 3% 8% 0% 8%;
+    color: white;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.organization {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.organization-dates p {
+    vertical-align: middle;
+}
+
+.org-description h4 {
+    font-size: 24pt;
 }
