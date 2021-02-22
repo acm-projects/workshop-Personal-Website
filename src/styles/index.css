@@ -13,7 +13,7 @@ html, body {
 }
 
 nav {
-    background-color: #071013;
+    background-color: #181315;
 
     width: 100%;
 
@@ -161,6 +161,8 @@ a:not(:last-child) {
 h1 {
     font-size: 36pt;
 }
+
+/* ABOUT ME SECTION */
 
 #about-me {
     text-align: center;
