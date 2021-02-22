@@ -164,10 +164,12 @@ h1 {
 
 #about-me {
     text-align: center;
+    height: 100vh;
+    padding: 5%;
 }
 
 #about-me-content * {
-    margin: 5%;
+    margin: 4%;
 }
 
 #about-me-text {
@@ -220,7 +222,7 @@ h1 {
     height: 100vh;
     width: 100%;
     background-color: #181315;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -235,7 +237,7 @@ h1 {
 
 #work-experience {
     height: 100vh;
-    padding: 2%;
+    padding: 5%;
 }
 
 #work-content {
@@ -259,11 +261,11 @@ h1 {
     vertical-align: middle;
 }
 
-/* EXTRACURRICULAR */
 
 #extracurriculars {
     background-color: #181315;
-    padding: 2%;
+    padding: 5%;
+    height: 100vh;
 }
 
 #extracurricular-content {
